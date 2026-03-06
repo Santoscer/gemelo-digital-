@@ -1,0 +1,17 @@
+/* ─── CAMBIO: limpiado de estilos default de Vite que pisaban los estilos ───
+   del proyecto. Se mantiene solo lo mínimo necesario.                  ───── */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
